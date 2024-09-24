@@ -1,0 +1,41 @@
+@media (min-width: 1200px) {
+  .fadeInUp .content {
+    flex: 0 0 auto;
+    width: 41.6667%;
+  }
+  h2 {
+    flex: 0 0 auto;
+    width: 41.6667%;
+  }
+}
+
+@media (max-width: 992px) {
+  .breadcumb-section {
+    padding: 60px 0px;
+  }
+  .banner {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .service-v1-vector {
+    display: block !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .left-top-img,
+  .right-bottom-img {
+    width: 40%;
+  }
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 20px;
+  }
+}

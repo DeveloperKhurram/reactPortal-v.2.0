@@ -1,0 +1,76 @@
+.breadcumb-section {
+  /* padding-top: 0px !important; */
+  padding: 0 2rem 0;
+  position: relative;
+}
+
+.banner {
+  overflow: hidden !important;
+  display: flex !important;
+  position: relative !important;
+  align-items: center !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  background-image: url("src/images/banner-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  max-width: 1700px;
+  border-radius: 16px;
+  padding-top: 120px !important;
+  padding-bottom: 120px !important;
+}
+
+.left-top-img {
+  visibility: visible;
+  animation-name: zoomIn;
+  position: absolute;
+  left: -60px;
+  top: 0px;
+  vertical-align: middle;
+}
+
+.right-bottom-img {
+  visibility: visible;
+  animation-name: zoomIn;
+  bottom: -50px;
+  position: absolute;
+  right: 0px;
+  vertical-align: middle;
+}
+
+.service-v1-vector {
+  display: none !important;
+  bottom: -10px;
+  position: absolute;
+  right: 5%;
+  transform: translateY(0px);
+  animation: 6s ease-in-out 0s infinite normal none running bounceY;
+  vertical-align: middle;
+}
+
+.fadeInUp {
+  visibility: visible;
+  animation-name: fadeInUp;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.fadeInUp .content {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+
+  & .position-relative{
+    position: relative !important;
+    width: 100%;
+  }
+}

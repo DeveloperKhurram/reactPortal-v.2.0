@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 1.3125;
+  color: var(--headings-color);
+  font-size: 32px;
+}
+p {
+  margin-bottom: 0px !important;
+  color: var(--headings-color);
+  font-family: var(--title-font-family);
+  font-weight: 400;
+  margin-top: 0px;
+  margin: 0px 0px 15px;
+  line-height: 1.85;
+}
